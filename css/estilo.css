@@ -19,7 +19,7 @@ header img {
     padding: 0.5rem;
 }
 
-header p img{
+header p img {
     width: 20rem;
 }
 
@@ -36,7 +36,7 @@ header nav img {
     height: 80%;
 }
 
-header nav a img{
+header nav a img {
     display: block;
     width: 80%;
 }
@@ -86,3 +86,57 @@ body.classe {
     background-size: cover;
 }
 
+.marcadores {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    position: fixed;
+    left: 1rem;
+}
+
+.marcadores h1 {
+    color: #8D63E5;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.coracao h1 {
+    color: #8D63E5;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.coracao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    position: fixed;
+    right: 1rem;
+}
+
+.livros{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.marcadores aside {
+    display: flex;
+    flex-direction: column;
+}
+
+.marcadores aside img {
+    padding: 1rem;
+}
+
+.seta{
+    position: fixed;
+    right: 0.2rem;
+    
+}
+
+.seta img{
+    width: 80%;
+}
