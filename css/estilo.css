@@ -60,27 +60,24 @@ body#main {
     background-size: cover;
 }
 
-main {
+.main {
     height: 84vh;
-}
-
-main {
     min-height: calc(100vh - 9rem);
 }
 
-main section.img {
+.main section.img {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 100%;
 }
 
-main section.img aside {
+.main section.img aside {
     display: flex;
     flex-direction: column;
 }
 
-main section.img aside img {
+.main section.img aside img {
     padding: 1rem;
 }
 
@@ -88,3 +85,4 @@ body.classe {
     background-image: url("../img/fundo2.png");
     background-size: cover;
 }
+
