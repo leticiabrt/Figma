@@ -89,54 +89,60 @@ body.classe {
 .marcadores {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    height: 100%;
+    height: 8rem;
     position: fixed;
     left: 1rem;
+}
+
+.marcadores img{
+    height: 150px;
 }
 
 .marcadores h1 {
     color: #8D63E5;
     font-family: 'Lucida Sans', sans-serif;
+    text-align: center;
+    font-size: 1rem;
 }
 
 .coracao h1 {
     color: #8D63E5;
     font-family: 'Lucida Sans', sans-serif;
+    text-align: end;
 }
 
 .coracao{
+    position: absolute;
+    left: calc(100vw - 115px);
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100px;
     align-items: center;
-    justify-content: space-between;
-    height: 100%;
-    position: fixed;
-    right: 1rem;
 }
 
 .livros{
+    padding-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    
 }
 
 .marcadores aside {
     display: flex;
     flex-direction: column;
+    gap: 0px;
 }
+
+
+
 
 .marcadores aside img {
     padding: 1rem;
 }
 
-.seta{
-    position: fixed;
-    right: 0.2rem;
-    
-}
 
 .seta img{
-    width: 80%;
+    width: 100%;
 }
