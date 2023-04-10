@@ -1,0 +1,29 @@
+@media(max-width: 1000px){
+    .search{
+        display: none;
+        opacity: 0;
+    }
+
+    .img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width: 600px){
+
+    .main section.img{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .livros{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .livros .seta{
+        display: none;
+    }
+}

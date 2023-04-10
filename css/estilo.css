@@ -5,13 +5,18 @@
     outline: 0;
 }
 
+body ul{
+    list-style: none;
+}
+
+
 header {
     background-color: #8D63E5;
     height: 5rem;
     display: flex;
-    display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 header img {
@@ -39,6 +44,17 @@ header nav img {
 header nav a img {
     display: block;
     width: 80%;
+}
+
+.ops ul{
+    position: absolute;
+    display: flex;
+    right: 10px;
+} 
+
+.ops ul li img{
+    height: 5rem;
+    width: 5rem;
 }
 
 footer {
@@ -69,6 +85,7 @@ body#main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     height: 100%;
 }
 
@@ -90,7 +107,7 @@ body.classe {
     display: flex;
     justify-content: space-around;
     height: 8rem;
-    position: fixed;
+    position: absolute;
     left: 1rem;
 }
 
@@ -103,12 +120,14 @@ body.classe {
     font-family: 'Lucida Sans', sans-serif;
     text-align: center;
     font-size: 1rem;
+    font-size: large;
 }
 
 .coracao h1 {
-    color: #8D63E5;
+    color: #8d63e5;
     font-family: 'Lucida Sans', sans-serif;
     text-align: end;
+    font-size: x-large;
 }
 
 .coracao{
@@ -119,6 +138,7 @@ body.classe {
     text-align: center;
     width: 100px;
     align-items: center;
+    margin-top: 1rem;
 }
 
 .livros{
@@ -127,6 +147,7 @@ body.classe {
     justify-content: space-around;
     align-items: center;
     height: 100%;
+    flex-wrap: wrap;
 }
 
 .marcadores aside {

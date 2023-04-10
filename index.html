@@ -6,18 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lê Books</title>
     <link rel="stylesheet" href="./css/estilo.css"/>
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/responsivo.css" />
 </head>
 <body id="main">
 
     <header>
         <p><img src="./img/logo.png" alt=""></p>
-            <nav>
-                <a href="#"><img src="./img/pesquisa.png" alt=""></a>
-                <a href="Estante/estante.html"><img src="./img/estante.png" alt=""></a>
-                <a href="#"><img src="./img/perfil.png" alt=""></a>
-                
-            </nav>
+        <a href="#" class="search"><img src="./img/pesquisa.png"></a>
+        <nav class="ops">
+            <ul>
+                <li><a href="Estante/estante.html"><img src="./img/estante.png"></a></li>
+                <li><a href="#"><img src="./img/perfil.png"></a></li>
+            </ul>
+        </nav>
+        
+
+            
+        <nav class="menu">
+            <input type="checkbox" class="menu-faketrigger" />
+            <div class="menuburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="">Pesquisa</a></li>
+                <li><a href="Estante/estante.html">Estante</a></li>
+                <li><a href="#">Perfil</li>
+            </ul>
+        </nav>
+
     </header>
+
+  
+
 
 
 <main class="main">
